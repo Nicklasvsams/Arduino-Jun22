@@ -4,7 +4,7 @@ class Button {
     byte _state;
     byte _lastReading;
     unsigned long _lastDebounceTime = 0;
-    unsigned long _debounceDelay = 50;
+    unsigned long _debounceDelay = 25;
     int _baudrate = 9600;
   public:
     Button(byte pin) {
